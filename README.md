@@ -13,7 +13,6 @@ This interface component has with the followign features :
 4. Navigation from one activity to other.
 
 
-
 <table border=0>
 <tr>
 <td><a href="url"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png" align="left" height="400" width="250" ></a></td>
