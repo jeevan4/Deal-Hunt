@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Deal Hunt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ebay_deals">Ebay Deals</string>
+    <string name="deal_news">DealNews Deals</string>
+    <string name="wip">Will Show This Soon :D </string>
+    <string name="title_activity_deal_show">Ebay Deal</string>
+</resources>
