@@ -14,4 +14,9 @@ This interface component has with the followign features :
 
 
 
-<a href="url"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png" align="left" height="500" width="300" ></a>
+<table>
+<tr>
+<td><a href="url"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png" align="left" height="500" width="300" ></a></td>
+<td><a href="url"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-ZRbO9cmdSB8iZs862D684T7W3RFOXyg7/Screenshot_2015-03-03-16-01-45.png" align="left" height="500" width="300" ></a></td>
+</tr>
+</table>
