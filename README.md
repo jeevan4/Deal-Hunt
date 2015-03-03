@@ -15,6 +15,6 @@ This interface component has with the followign features :
 
 ![alt tag](https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png)
 
-<img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png" alt="Drawing" style="width: 100px;"/>
 
 
