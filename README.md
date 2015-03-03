@@ -13,7 +13,5 @@ This interface component has with the followign features :
 4. Navigation from one activity to other.
 
 
-![alt tag](https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png)
 
-
-[[ https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png | height = 100px ]]
+<a href="url"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png | height" align="left" height="48" width="48" ></a>
