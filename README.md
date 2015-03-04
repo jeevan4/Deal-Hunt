@@ -3,7 +3,7 @@ Mini Project 1: Interface component
 
 The Main Activity loads all the deals from an XML file. Once an item in the list is selected, the deal will be opened in a different activity with the deal item image, description and a button that redirects to the deal link.
 
-This interface component has with the followign features :
+This project deals with the followign features :
 
 1. Download the XML file from a given URL
 2. Parse the downloaded XML file and load the data into an activity using ListView.
