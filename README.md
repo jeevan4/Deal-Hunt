@@ -7,7 +7,7 @@ activity with the deal item image, description and a button that redirects to th
 This interface component has with the followign features :
 
 1. Download the XML file from a given URL
-2. Parse the downloaded XML file and load the data into the an activity using ListView.
+2. Parse the downloaded XML file and load the data into an activity using ListView.
 3. Load an ImageView with a Image file that is fetched from an URL.A circular progress bar will appear if the image is
    being downloaded. ( Used Universal Image Loader library (https://github.com/nostra13/Android-Universal-Image-Loader))
 4. Navigation from one activity to other.
