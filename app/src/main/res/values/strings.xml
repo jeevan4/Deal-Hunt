@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">Deal Hunt</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="ebay_deals">Ebay Deals</string>
-    <string name="deal_news">DealNews Deals</string>
+    <string name="action_settings">My Saved Deals</string>
+    <string name="delete_deal">Remove Deal</string>
+    <string name="ebay_deals">All Deals</string>
+    <string name="deal_news">Saved Deals</string>
     <string name="wip">Will Show This Soon :D </string>
-    <string name="title_activity_deal_show">Ebay Deal</string>
+    <string name="title_activity_deal_show">Deal</string>
+    <string name="deal_id">deal</string>
+
 </resources>

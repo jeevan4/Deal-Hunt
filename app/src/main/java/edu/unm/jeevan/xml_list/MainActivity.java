@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
         Log.i("EbayList", "OnCreate()");
         setContentView(R.layout.activity_main);
         Intent ebay_intent = getIntent();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //Get reference to our ListView
         sitesList = (ListView)findViewById(R.id.lview);
@@ -47,6 +47,7 @@ public class MainActivity extends ActionBarActivity {
                 String price = mAdapter.getItem(pos).getPricenow();
                 String saving = mAdapter.getItem(pos).getSavings();
                 String imageurl = mAdapter.getItem(pos).getImgUrl();
+                String deal_id = mAdapter.getItem(pos).getId();
 
                 Intent i = new Intent(MainActivity.this,DealShow.class);
                 i.putExtra("url",url);
@@ -54,7 +55,7 @@ public class MainActivity extends ActionBarActivity {
                 i.putExtra("price",price);
                 i.putExtra("saving",saving);
                 i.putExtra("imageurl",imageurl);
-
+                i.putExtra("deal_id",deal_id);
                 //i.setData(Uri.parse(url));
                 startActivity(i);
 
@@ -80,7 +81,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_deals, menu);
         return true;
     }
 
@@ -97,6 +98,8 @@ public class MainActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent deals_intent = new Intent(MainActivity.this, DealsActivity.class);
+            startActivity(deals_intent);
             return true;
         }
 

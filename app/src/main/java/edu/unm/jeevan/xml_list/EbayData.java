@@ -5,12 +5,21 @@ import java.lang.Override;import java.lang.String; /**
  */
 public class EbayData {
 
+    private String id;
     private String title;
     private String dealurl;
     private String pricenow;
     private String imgUrl;
     private String savings;
 
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getSavings() {
         return savings;
