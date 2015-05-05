@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\libs\universal-image-loader-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7ef87542d4b8aba15b4038db99ec2b71e9945a0">
+        <dex dex="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.2-73b809ec952eaf2d980292a9ebb82606eff86eda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-2e1c3018303e7905f7fe4a8651339b18c65ed280.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\pre-dexed\debug\classes-cc894c0b4314c7cbf0c6f528a809f464f807394f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\pre-dexed\debug\classes-0b19518332304166e63a012862dca85e7a89c5a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jeevan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Jeevan\AndroidStudioProjects\Xml_list\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f55c005b131333e497655c57b910bd735f89bea5.jar" />
+    </item>
+
+</items>

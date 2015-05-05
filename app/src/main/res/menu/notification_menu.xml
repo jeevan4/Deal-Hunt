@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="edu.unm.jeevan.xml_list.DealShow">
+    <item android:id="@+id/notification_menu" android:title="@string/notify"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
