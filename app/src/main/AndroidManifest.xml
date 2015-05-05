@@ -25,7 +25,11 @@
         </activity>
         <activity
             android:name=".DealsActivity"
+<<<<<<< HEAD
             android:label="@string/action_settings" >
+=======
+            android:label="@string/deal_news" >
+>>>>>>> origin/master
         </activity>
         <activity
             android:name=".saved_deal"

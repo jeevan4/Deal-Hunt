@@ -62,7 +62,11 @@ public class db_handler extends SQLiteOpenHelper {
      * All CRUD(Create, Read, Update, Delete) Operations
      */
 
+<<<<<<< HEAD
     // Saving a new Deal
+=======
+    // Adding new contact
+>>>>>>> origin/master
     void savedeal(Context myContext,String deal_id,String title,String price, String saving, String imageurl, String url) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -82,7 +86,11 @@ public class db_handler extends SQLiteOpenHelper {
         db.close(); // Closing database connection
     }
 
+<<<<<<< HEAD
     // Getting All Deals
+=======
+    // Getting All Contacts
+>>>>>>> origin/master
     public List<EbayData> getAllDeals() {
         List<EbayData> ebaylist = new ArrayList<EbayData>();
         // Select All Query

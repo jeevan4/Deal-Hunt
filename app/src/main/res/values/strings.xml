@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Deal Hunt</string>
     <string name="hello_world">Hello world!</string>
+<<<<<<< HEAD
     <string name="action_settings">My WishList</string>
     <string name="delete_deal">Remove From WishList</string>
     <string name="ebay_deals">All Deals</string>
@@ -9,5 +10,14 @@
     <string name="title_activity_deal_show">Deal</string>
     <string name="deal_id">deal</string>
     <string name="notify">Notify Me</string>
+=======
+    <string name="action_settings">My Saved Deals</string>
+    <string name="delete_deal">Remove Deal</string>
+    <string name="ebay_deals">All Deals</string>
+    <string name="deal_news">Saved Deals</string>
+    <string name="wip">Will Show This Soon :D </string>
+    <string name="title_activity_deal_show">Deal</string>
+    <string name="deal_id">deal</string>
+>>>>>>> origin/master
 
 </resources>

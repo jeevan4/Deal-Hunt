@@ -15,9 +15,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+<<<<<<< HEAD
 import android.os.SystemClock;
 import android.content.Context;
 import android.widget.Toast;
+=======
+>>>>>>> origin/master
 
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;
@@ -91,9 +94,15 @@ public class DealsActivity extends ActionBarActivity {
         }
 
         //noinspection SimplifiableIfStatement
+<<<<<<< HEAD
         if (id == R.id.notification_menu) {
             scheduleNotification(getNotification("Tap Here To View"), 10000);
             Toast.makeText(getApplicationContext(), "Notification enabled", Toast.LENGTH_SHORT).show();
+=======
+        if (id == R.id.action_settings) {
+            Intent deals_intent = new Intent(this, DealsActivity.class);
+            startActivity(deals_intent);
+>>>>>>> origin/master
             return true;
         }
 
