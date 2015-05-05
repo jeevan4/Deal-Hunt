@@ -14,6 +14,7 @@ import android.content.Context;
 public class SitesXmlPullParser {
 
     static final String KEY_ITEM = "Item";
+    static final String KEY_ID = "ItemId";
     static final String KEY_TITLE = "Title";
     static final String KEY_Deal_URL = "DealURL";
     static final String KEY_PRICE_NOW = "ConvertedCurrentPrice";
@@ -71,6 +72,9 @@ public class SitesXmlPullParser {
                             // if </site> then we are done with current Site
                             // add it to the list.
                             EbayData.add(curEbayData);
+                        } else if (tagname.equals(KEY_ID)) {
+                            // if </name> use setName() on curSite
+                            curEbayData.setId(curText);
                         } else if (tagname.equals(KEY_TITLE)) {
                             // if </name> use setName() on curSite
                             curEbayData.setTitle(curText);

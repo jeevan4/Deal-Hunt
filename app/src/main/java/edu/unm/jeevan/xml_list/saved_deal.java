@@ -1,5 +1,6 @@
 package edu.unm.jeevan.xml_list;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -22,14 +23,15 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 
-public class DealShow extends ActionBarActivity {
+public class saved_deal extends ActionBarActivity {
 
     ImageLoader imageLoader;
-
+//    public String deal_id;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_deal_show);
+        setContentView(R.layout.saved_deal_show);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         TextView dealdesc = (TextView) findViewById(R.id.dealdesc);
         Intent deal_show = getIntent();
         final String url = deal_show.getStringExtra("url");
@@ -37,17 +39,16 @@ public class DealShow extends ActionBarActivity {
         final String price = deal_show.getStringExtra("price");
         final String saving = deal_show.getStringExtra("saving");
         final String imageurl = deal_show.getStringExtra("imageurl");
-        final String deal_id = deal_show.getStringExtra("deal_id");
+        String deal_id = getResources().getString(R.string.deal_id);
+        deal_id = deal_show.getStringExtra("deal_id");
 
         ImageView iconImg = (ImageView) findViewById(R.id.imgdisp);
         ImageView dealbtn = (ImageView) findViewById(R.id.dealbtn);
-        ImageView savebtn = (ImageView) findViewById(R.id.savedeal);
 
         ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext()).build();
         imageLoader = ImageLoader.getInstance();
         imageLoader.init(config);
         imageLoader.displayImage(imageurl,iconImg);
-
 
 /*
         try {
@@ -70,20 +71,6 @@ public class DealShow extends ActionBarActivity {
 
             }
         });
-        savebtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    db_handler db = new db_handler(getApplicationContext());
-                    db.savedeal(getApplicationContext(),deal_id,title, price,saving,imageurl,url);
-                }
-                catch (Exception ex)
-                {
-                    Toast.makeText(getApplicationContext(), "cannot update", Toast.LENGTH_LONG).show();
-                }
-            }
-
-        });
 
         /*
         Ddisp.setText(Html.fromHtml("<img src='"+imageurl+"' style='float: left;vertical-align: top;margin: 0 50px 50px 0'>"+title+" " +
@@ -96,7 +83,7 @@ public class DealShow extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_deals, menu);
+        getMenuInflater().inflate(R.menu.menu_deal_show, menu);
         return true;
     }
 
@@ -106,12 +93,22 @@ public class DealShow extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        if (id == android.R.id.home)
+        {
+            finish();
+        }
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Intent deals_intent = new Intent(DealShow.this, DealsActivity.class);
+        if (id == R.id.delete_deal) {
+
+            db_handler db = new db_handler(getApplicationContext());
+            Intent deal_show = getIntent();
+            String deal_id = deal_show.getStringExtra("deal_id");
+//
+            db.deleteDeal(getApplicationContext(),deal_id);
+            Intent deals_intent = new Intent(this, MainActivity.class);
             startActivity(deals_intent);
-            return true;
+
         }
 
         return super.onOptionsItemSelected(item);
