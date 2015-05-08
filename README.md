@@ -16,9 +16,9 @@ Features of Deal Hunt :
 
 With Deal Hunt you can :
 
-1. New deals are obtained real time from RSS feeds.
+1. View deals that are obtained real time from RSS feeds.
 2. View deals in a chronological list with in a simple UI.
-3. Deals are stored in your local cache so that, you can browse them even with out internet connection. 
+3. Browse your deals even with out internet connection as they are stored in your local cache.
 4. Add the deals in your wish list so that you can easily find them later.
 5. Remove a deal from your wish list if you are no more interested in the deal.
 6. Turn on “Notify Me” in order to allow the app to push a notification before any saved deal expires.
