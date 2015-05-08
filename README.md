@@ -1,4 +1,4 @@
-# Hmad
+# Deal Hunt
 Mini Project 1: Interface component
 
 The Main Activity loads all the deals from an XML file. Once an item in the list is selected, the deal will be opened in a different activity with the deal item image, description and a button that redirects to the deal link.
@@ -10,6 +10,19 @@ This project deals with the followign features :
 3. Load an ImageView with a Image file that is fetched from an URL.A circular progress bar will appear if the image is
    being downloaded. ( Used Universal Image Loader library (https://github.com/nostra13/Android-Universal-Image-Loader))
 4. Navigation from one activity to other.
+
+Final App Show :
+
+With Deal Hunt you can :
+========================
+
+1. New deals are obtained real time from RSS feeds.
+2. View deals in a chronological list with in a simple UI.
+3. Deals are stored in your local cache so that, you can browse them even with out internet connection. 
+4. Add the deals in your wish list so that you can easily find them later.
+5. Remove a deal from your wish list if you are no more interested in the deal.
+6. Turn on “Notify Me” in order to allow the app to push a notification before any saved deal expires.
+7. Press “Grab Deal” to directly go to the product website to buy.
 
 
 <table border=0>
