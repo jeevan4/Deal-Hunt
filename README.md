@@ -16,10 +16,10 @@ This project deals with the followign features :
 <tr>
 <td><a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-35-44.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-35-44.png" align="left" height="400" width="250" ></a></td>
 <td><a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-06.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-06.png" align="left" height="400" width="250" ></a></td>
-<td><a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-21-35.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-49.png" align="left" height="400" width="250" ></a>
+<td><a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-21-35.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-21-35.png" align="left" height="400" width="250" ></a>
 </td>
 </tr>
 <tr><td>
-<a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-49.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-35-44.png" align="left" height="400" width="250" ></a>
+<a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-49.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-49.png" align="left" height="400" width="250" ></a>
 </td></tr>
 </table>
