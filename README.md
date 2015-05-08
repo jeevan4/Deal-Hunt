@@ -14,9 +14,9 @@ This project deals with the followign features :
 
 <table border=0>
 <tr>
-<td><a href="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-83Whkbg0N7BK4wanXAG3F4SwoK4v3F6M/Screenshot_2015-03-03-16-01-39.png" align="left" height="400" width="250" ></a></td>
-<td><a href="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-ZRbO9cmdSB8iZs862D684T7W3RFOXyg7/Screenshot_2015-03-03-16-01-45.png"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-ZRbO9cmdSB8iZs862D684T7W3RFOXyg7/Screenshot_2015-03-03-16-01-45.png" align="left" height="400" width="250" ></a></td>
-<td><a href="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-AApLBxm9R2XyLVLugivXaKad3GzDefN5/Screenshot_2015-03-03-16-23-29.png"><img src="https://s3.amazonaws.com/pushbullet-uploads/ujAlv9qanxA-AApLBxm9R2XyLVLugivXaKad3GzDefN5/Screenshot_2015-03-03-16-23-29.png" align="left" height="400" width="250" ></a>
+<td><a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-35-44.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-35-44.png" align="left" height="400" width="250" ></a></td>
+<td><a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-06.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-38-06.png" align="left" height="400" width="250" ></a></td>
+<td><a href="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-21-35.png"><img src="https://github.com/jeevan4/Deal-Hunt/blob/master/screenshots/Screenshot_2015-05-05-01-21-35.png" align="left" height="400" width="250" ></a>
 </td>
 </tr>
 </table>
