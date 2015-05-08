@@ -11,10 +11,10 @@ This project deals with the followign features :
    being downloaded. ( Used Universal Image Loader library (https://github.com/nostra13/Android-Universal-Image-Loader))
 4. Navigation from one activity to other.
 
-Final App Show :
+Features of Deal Hunt :
+==================
 
 With Deal Hunt you can :
-========================
 
 1. New deals are obtained real time from RSS feeds.
 2. View deals in a chronological list with in a simple UI.
